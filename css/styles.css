@@ -16,5 +16,5 @@
 @import 'screens/login.css';
 body {
     font-family: 'Hahmlet', serif;
-    height: 800px;
+    height: 50vh;
 }
