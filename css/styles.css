@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@200;400;600&display=swap');
+
+@import 'reset.css';
+
+/*Components*/
+@import 'components/status-bar.css';
+@import 'components/nav-bar.css';
+@import 'components/screen-header.css';
+@import 'components/friends.css';
+@import 'components/chat-list.css';
+@import 'components/search.css';
+@import 'components/setting.css';
+
+/* screens */
+@import 'screens/login.css';
+body {
+    font-family: 'Hahmlet', serif;
+    height: 800px;
+}

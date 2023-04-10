@@ -1,0 +1,111 @@
+.welcome-page {
+    display: flex;
+    border: 5px solid black;
+    border-radius: 15px;
+    height: 1000px;
+    margin: 80px 30px 30px;
+    justify-content: center;
+    padding: 30px;
+}
+
+.welcome-page_inside {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    border-radius: 15px;
+    margin: 30px 10px;
+    padding: 10px;
+    width: 80%;
+    height: 90%;
+
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-top {
+    display: flex;
+    border-top-right-radius: 15px;
+    flex-direction: column;
+    border-top-left-radius: 15px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 55%;
+}
+
+.login-bottom {
+    display: flex;
+    flex-direction: column;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: rgb(166, 242, 255);
+    align-items: center;
+    height: 45%;
+    width: 100%;
+}
+
+.login-top__logo {
+    display: flex;
+    border: 3px solid white;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 10px;
+    width: 80%;
+    height: 300px;
+    background-color: white;
+}
+
+.login-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 50px;
+    padding: 10px;
+    font-size: 30px;
+    margin: 0px auto 20px;
+}
+
+.login-pw {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 40px;
+    padding: 10px;
+    font-size: 30px;
+    margin: 20px auto 0px;
+}
+
+.login-btn {
+    display: flex;
+    width: 350px;
+}
+
+.login-btn input[type='submit'] {
+    background-color: hsl(350, 84%, 49%);
+    cursor: pointer;
+    padding: 20px 0px;
+    border-radius: 3px;
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px 10px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+}
+
+.rotate {
+    animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
